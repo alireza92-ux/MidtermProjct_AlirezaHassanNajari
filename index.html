@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js" defer></script>
+    </head>
+
+    <body>
+        <div class="card">
+            <form id="form">
+                <div class="search">
+                    <input type="text" class="search-bar" id="search-bar" placeholder="Search your favorite city">
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+            <div class="weather loading notfound" id="weather-container">
+                <h2 class="city" id="city"></h2>
+                <h1 class="temp" id="temp"></h1>
+                <div class="humidity" id="humidity"></div>
+                <div class="wind" id="wind"></div>
+            </div>
+        </div>
+    </body>
+</html>
